@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="./CSS/signup.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header-div">
+            <img src="./assets/signup-asset.jpg" alt="logo" class="logo">
+            <h1>For Individuals</h1>
+            <p class="mobile">Inspiring wholesome harmony for the mind, body and spirit, for everyone, everywhere.</p>
+            <p class="desktop">
+                Start benefiting from the wellness experience. For companies looking on increasing productivity, and improving organisation wellness.
+            </p>
+        </div>
+        <div class="form-div">
+            <form>
+                <label for="first-name">First Name 
+                    <input type="text" name="first-name" id="first-name">
+                </label>
+                <label for="last-name">Last Name 
+                    <input type="text" name="last-name" id="last-name">
+                </label>
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender" required>
+                    <option value="" disabled selected>Select here</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                    <option value="prefer-not-to-say">Prefer not to say</option>
+                </select>
+                <label for="dob">Date of Birth
+                    <input type="date" name="dob" id="dob">
+                </label>
+                <label for="weight">Weight(KG)
+                    <input id="weight" type="number" name="weight" placeholder="Enter Weight">
+                </label>
+                <label for="height">Height(CM)
+                    <input id="height" type="number" name="height" placeholder="Enter Height here">
+                </label>
+                <label for="activity">Activity Level</label>
+                <select id="activity" name="activity" required>
+                    <option value="" disabled selected>Select here</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">4</option>
+                </select>
+                <label for="password">Password
+                    <input type="password" id="password" name="password">
+                </label>
+                <button value="register" id="register">Register</button>
+                <p class="desktop">By clicking Register, you agree to our <a href="#">Terms of Use</a> and our <a href="#">Privacy Policy</a></p>
+            </form>
+        </div>
+        <p class="mobile bottom-text">By clicking Register, you agree to our <a href="#">Terms of Use</a> and our <a href="#">Privacy Policy</a></p>
+    </div>
+</body>
+</html>
